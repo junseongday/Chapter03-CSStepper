@@ -8,7 +8,7 @@
 
 import UIKit
 @IBDesignable
-public class CSStepper: UIView {
+public class CSStepper: UIControl {
     
     public var leftBtn = UIButton(type: .system) // 좌측 버튼
     public var rightBtn = UIButton(type: .system) // 우측 버튼
@@ -18,6 +18,8 @@ public class CSStepper: UIView {
     public var value: Int = 0 {
         didSet {
             self.centerLabel.text = String(value)
+            
+            self.sendActions(for: .valueChanged)
         }
     }
     
