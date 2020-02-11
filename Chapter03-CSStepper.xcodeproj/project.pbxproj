@@ -13,6 +13,7 @@
 		5BAE0E8823E70CC800268CE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BAE0E8623E70CC800268CE8 /* Main.storyboard */; };
 		5BAE0E8A23E70CC900268CE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BAE0E8923E70CC900268CE8 /* Assets.xcassets */; };
 		5BAE0E8D23E70CC900268CE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BAE0E8B23E70CC900268CE8 /* LaunchScreen.storyboard */; };
+		5BAE0E9523E70D0D00268CE8 /* CSStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAE0E9423E70D0D00268CE8 /* CSStepper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5BAE0E8923E70CC900268CE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BAE0E8C23E70CC900268CE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BAE0E8E23E70CC900268CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BAE0E9423E70D0D00268CE8 /* CSStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSStepper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				5BAE0E8023E70CC800268CE8 /* AppDelegate.swift */,
+				5BAE0E9423E70D0D00268CE8 /* CSStepper.swift */,
 				5BAE0E8223E70CC800268CE8 /* SceneDelegate.swift */,
 				5BAE0E8423E70CC800268CE8 /* ViewController.swift */,
 				5BAE0E8623E70CC800268CE8 /* Main.storyboard */,
@@ -141,6 +144,7 @@
 				5BAE0E8523E70CC800268CE8 /* ViewController.swift in Sources */,
 				5BAE0E8123E70CC800268CE8 /* AppDelegate.swift in Sources */,
 				5BAE0E8323E70CC800268CE8 /* SceneDelegate.swift in Sources */,
+				5BAE0E9523E70D0D00268CE8 /* CSStepper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
